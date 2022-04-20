@@ -13,7 +13,7 @@ function Sidebar() {
 
   return (
     <div className="sidebar">
-      <img
+      {/* <img
         className="sidebar__logo"
         src="https://getheavy.com/wp-content/uploads/2019/12/spotify2019-830x350.jpg"
         alt=""
@@ -26,7 +26,7 @@ function Sidebar() {
       <hr />
       {playlists?.items?.map((playlist) => (
         <SidebarOption option={playlist.name} />
-      ))}
+      ))} */}
     </div>
   );
 }

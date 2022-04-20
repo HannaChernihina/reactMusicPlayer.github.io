@@ -1,4 +1,4 @@
-{
+{ "homepage": "https://hannachernihina.github.io/reactMusicPlayer.github.io/",
   "name": "spotify-clone",
   "version": "0.1.0",
   "private": true,
@@ -15,6 +15,8 @@
     "spotify-web-api-js": "^1.5.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
